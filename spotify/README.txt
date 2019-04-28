@@ -13,6 +13,8 @@ already done, expand the left column!
 5. install python so run: brew install python3
 6. install pyautogui so run: pip3 install pyautogui
 7. edit using your favourite text editor, notepad or whatever the run.sh file in the folder to change the path to find the folder to the proper one
+7.1 also in terminal real quick convert the run.sh and spoti.py into executables with: chmod +x /path/to/your/run.sh 
+and: chmod +x /path/to/your/spoti.py
 8. now its time to do the hard stuff. so if u want you can use the launch daemon process. I personally don't have loads of success with it, so you can
 also use the crontab to do it.
 9. In terminal, run: crontab -e
